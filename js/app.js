@@ -198,13 +198,13 @@ computer.dealCards(game.dealThree());
 dealToDOM();
 
 // ADD CLICK LISTENER TO PLAYER CARDS
-itm45.addEventListener('click', function(event){
+$(itm45).on('click', function(event){
     playThisCard(0);
 });
-itm46.addEventListener('click', function(event){
+$(itm46).on('click', function(event){
     playThisCard(1);
 });
-itm47.addEventListener('click', function(event){
+$(itm47).on('click', function(event){
     playThisCard(2);
 });
 
